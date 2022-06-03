@@ -1,0 +1,66 @@
+body {
+	background-color: #FBFBFB;
+}
+
+.header {
+	border-bottom: 1px solid #e4e6eb;
+}
+
+.header-brand-logo-wrapper{
+    display: flex;
+    justify-content:center;
+}
+
+.header-brand-logo {
+	width: 250px;
+    padding: 1em;
+}
+
+.navbar {
+	width: 85%;
+	margin: auto;
+	background-color: transparent !important;
+}
+
+.navbar-nav {
+	width: 100%;
+	justify-content: space-between;
+}
+.header-custom-select {
+	width: auto;
+	border: none !important;
+	background-color: transparent;
+    padding: 0 1.2em !important;
+}
+
+.header-custom-select:focus {
+	box-shadow: none;
+}
+
+.header-badge {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 9px;
+	height: 27px;
+}
+
+.header-icon-link-wrapper {
+	display: flex;
+}
+
+.header-icon-link {
+	color: inherit;
+	margin: 0.5em;
+}
+
+.active {
+	border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width: 991px) {
+  .header-custom-select {
+    padding: 0 !important;
+}
+
+}
