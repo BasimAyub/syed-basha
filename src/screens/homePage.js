@@ -26,6 +26,11 @@ import Person2 from "../assets/person (2).png";
 import Person3 from "../assets/person (3).png";
 import Frame1 from "../assets/frame1.png";
 import Frame2 from "../assets/frame2.png";
+import Sec10Icon1 from "../assets/sec10 icon (1).png";
+import Sec10Icon2 from "../assets/sec10 icon (2).png";
+import Sec10Icon3 from "../assets/sec10 icon (3).png";
+import Sec10Icon4 from "../assets/sec10 icon (4).png";
+import Sec10 from "../assets/sec10.png";
 
 export default function HomePage() {
 	const [count1, setCount1] = useState(0);
@@ -387,7 +392,7 @@ export default function HomePage() {
 							<button className="sec2-btn mt-4">Beställ nu</button>
 						</div>
 					</div>
-					<div className="col-md-4 mt-5">
+					<div className="col-md-4 top">
 						<div className="sec3-card shadow">
 							<div
 								id="carouselExampleIndicators4"
@@ -456,7 +461,7 @@ export default function HomePage() {
 							<button className="sec2-btn mt-4">Beställ nu</button>
 						</div>
 					</div>
-					<div className="col-md-4 mt-5">
+					<div className="col-md-4 top">
 						<div className="sec3-card shadow">
 							<div
 								id="carouselExampleIndicators5"
@@ -525,7 +530,7 @@ export default function HomePage() {
 							<button className="sec2-btn mt-4">Beställ nu</button>
 						</div>
 					</div>
-					<div className="col-md-4 mt-5">
+					<div className="col-md-4 top">
 						<div className="sec3-card shadow">
 							<div
 								id="carouselExampleIndicators6"
@@ -642,7 +647,7 @@ export default function HomePage() {
 					class="carousel slide text-center"
 					data-ride="carousel"
 				>
-					<div class="carousel-inner text-center pt-5">
+					<div class="carousel-inner text-center pt-5 px-5">
 						<div class="carousel-item active border-0 sec4-carousel-item">
 							<div class="row sec4-row">
 								<div class="col-md-4">
@@ -707,7 +712,7 @@ export default function HomePage() {
 								</div>
 							</div>
 						</div>
-						<div class="carousel-item border-0 sec4-carousel-item">
+						{/* <div class="carousel-item border-0 sec4-carousel-item">
 							<div class="row sec4-row">
 								<div class="col-md-4">
 									<div className="sec4-img-wrapper shadow">
@@ -770,7 +775,7 @@ export default function HomePage() {
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 					<button
 						class="carousel-control-prev sec2-carousel-btn shadow"
@@ -997,29 +1002,32 @@ export default function HomePage() {
 			<div className="sec9">
 				<img src={Frame1} className="sec9-img-left" />
 				<img src={Frame2} className="sec9-img-right" />
-				<h2 className="sec2-heading text-center my-0">
-					15 % RABATT PÅ DITT FÖRSTA KÖP
-				</h2>
-				<span className="sec2-text my-5">
-					Signa upp på vårt nyhetsbrev för exklusiva erbjudanden plus 15 %
-					rabatt på din första beställning.
-				</span>
-				<div className="input-btn-wrapper">
-					<input
-						type="text"
-						className="sec9-input"
-						id="Prenumerera"
-						name="Prenumerera"
-						placeholder="Skriv in epostadress"
-					/>
-					<button className="sec9-btn my-4">Prenumerera</button>
+				<div className="sec9-Zindex">
+					<h2 className="sec2-heading text-center my-0">
+						15 % RABATT PÅ DITT FÖRSTA KÖP
+					</h2>
+					<span className="sec2-text my-5 text-center">
+						Signa upp på vårt nyhetsbrev för exklusiva erbjudanden plus 15 %
+						rabatt på din första beställning.
+					</span>
+					<div className="input-btn-wrapper">
+						<input
+							type="text"
+							className="sec9-input"
+							id="Prenumerera"
+							name="Prenumerera"
+							placeholder="Skriv in epostadress"
+						/>
+						<button className="sec9-btn my-4">Prenumerera</button>
+					</div>
 				</div>
 			</div>
 
-			<div className="sec-padding sec5 text-center">
+			<div className="sec10">
+				<img src={Sec10} className="sec10-img" />
 				<h2 className="sec2-heading text-center">Kontakta Oss</h2>
 				<div className="row sec10-row">
-					<div className="col-md-7">
+					<div className="col-md-7 sec10-left">
 						<span className="sec10-input-head">Skicka ett meddelande</span>
 						<div className="sec-10-input-wrapper">
 							<input
@@ -1054,17 +1062,26 @@ export default function HomePage() {
 							<button className="sec1-btn my-4">Skicka in</button>
 						</div>
 					</div>
-					<div className="col-md-3">
-						<span className="sec10-input-head d-block">Kontakttider</span>
-						<span className="sec2-text my-5 d-block">
-							Mån-Fre 08:00 - 19:00
-						</span>
-						<span className="sec2-text my-5 d-block">
-							Lör-Sön 10:00 – 13:00
-						</span>
-						<span className="sec10-input-head d-block">Skicka ett email</span>
-						<span className="sec2-text my-5 d-block">
+					<div className="col-md-3 sec-10-right">
+						<span className="sec10-input-head mb-4">Kontakttider</span>
+						<span className="sec2-text mb-3">Mån-Fre 08:00 - 19:00</span>
+						<span className="sec2-text mb-5">Lör-Sön 10:00 – 13:00</span>
+						<span className="sec10-input-head mt-4 mb-4">Skicka ett email</span>
+						<span className="sec2-text mb-4 d-flex">
+							<img src={Sec10Icon3} className="sec10-icon" />
 							info@bostablomster.se
+						</span>
+						<span className="sec2-text mb-4 d-flex">
+							<img src={Sec10Icon4} className="sec10-icon" />
+							posta_blomster
+						</span>
+						<span className="sec2-text mb-4 d-flex">
+							<img src={Sec10Icon1} className="sec10-icon" />
+							posta_blomster
+						</span>
+						<span className="sec2-text d-flex">
+							<img src={Sec10Icon2} className="sec10-icon" />
+							posta.blomster
 						</span>
 					</div>
 				</div>
