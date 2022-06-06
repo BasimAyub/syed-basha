@@ -45,12 +45,12 @@ export default function Footer(props) {
 				<img src={Icon2} className="footer-icon footer-img2" width={"60px"} />
 				<img src={Icon3} className="footer-icon footer-img3" width={"40px"} />
 				<i
-					class="fa-brands fa-cc-visa footer-icon footer-icon1"
+					className="fa-brands fa-cc-visa footer-icon footer-icon1"
 					style={{ fontSize: "2rem" }}
 				></i>
 				<img src={Icon4} className="footer-icon footer-img4" width={"40px"} />
 				<i
-					class="fab fa-stripe footer-icon footer-icon2"
+					className="fab fa-stripe footer-icon footer-icon2"
 					style={{ fontSize: "2rem" }}
 				></i>
 			</div>

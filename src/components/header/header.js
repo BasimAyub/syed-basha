@@ -31,9 +31,9 @@ export default function Header(props) {
 					src="https://postablomster.se/wp-content/uploads/2022/04/4A72CA1E-5B94-4C03-8196-B1F10670AF87.png"
 				/>
 			</div>
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<nav className="navbar navbar-expand-lg navbar-light bg-light">
 				<button
-					class="navbar-toggler ml-auto"
+					className="navbar-toggler ml-auto"
 					type="button"
 					data-toggle="collapse"
 					data-target="#navbarSupportedContent"
@@ -41,21 +41,21 @@ export default function Header(props) {
 					aria-expanded="false"
 					aria-label="Toggle navigation"
 				>
-					<span class="navbar-toggler-icon"></span>
+					<span className="navbar-toggler-icon"></span>
 				</button>
 
 				<div
-					class="collapse navbar-collapse justify-content-between"
+					className="collapse navbar-collapse justify-content-between"
 					id="navbarSupportedContent"
 				>
-					<ul class="navbar-nav">
-						<select class="header-custom-select">
+					<ul className="navbar-nav">
+						<select className="header-custom-select">
 							<option value="1">SEK</option>
 							<option value="2">USD</option>
 						</select>
 						<li className={`nav-item ${active1}`}>
 							<Link to="/" className="nav-link">
-								HEM <span class="sr-only">(current)</span>
+								HEM <span className="sr-only">(current)</span>
 							</Link>
 						</li>
 						<li className={`nav-item ${active2}`}>
@@ -80,13 +80,13 @@ export default function Header(props) {
 						</li>
 						<div className="header-icon-link-wrapper">
 							<a href="#" className="header-icon-link">
-								<i class="bi bi-search"></i>
+								<i className="bi bi-search"></i>
 							</a>
 							<a href="#" className="header-icon-link">
-								<i class="bi bi-bag"></i>
+								<i className="bi bi-bag"></i>
 							</a>
 							<a href="#" className="header-icon-link">
-								<span class="header-badge badge badge-dark rounded-circle">
+								<span className="header-badge badge badge-dark rounded-circle">
 									0
 								</span>
 							</a>

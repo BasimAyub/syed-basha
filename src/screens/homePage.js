@@ -92,7 +92,7 @@ export default function HomePage() {
 						<div className="sec2-card shadow">
 							<h4 className="sec1-heading mt-4 mb-3">Reste sig</h4>
 							<span className="my-1">
-								<i class="fa-regular fa-circle-check mr-2"></i>
+								<i className="fa-regular fa-circle-check mr-2"></i>
 								Stor
 							</span>
 							<span className="sec2-text my-2">
@@ -101,7 +101,7 @@ export default function HomePage() {
 
 							<h5 className="my-2 sec2-text-bold">Leverans till brevlådan</h5>
 							<span className="my-2">
-								<i class="fa-solid fa-up-down mr-2"></i>30 CM
+								<i className="fa-solid fa-up-down mr-2"></i>30 CM
 							</span>
 							<span className="my-2">
 								<img src={Vector} className="mr-2" width={"20px"} />
@@ -114,66 +114,66 @@ export default function HomePage() {
 					<div className="col-md-7 sec2-right">
 						<div
 							id="carouselExampleFade"
-							class="carousel slide text-center"
+							className="carousel slide text-center"
 							data-ride="carousel"
 						>
-							<div class="carousel-inner text-center">
-								<div class="carousel-item active border-0">
+							<div className="carousel-inner text-center">
+								<div className="carousel-item active border-0">
 									<img
-										class="d-block w-60 m-auto sec2-carousel-img"
+										className="d-block w-60 m-auto sec2-carousel-img"
 										src={flower1}
 										alt="First slide"
 									/>
 								</div>
-								<div class="carousel-item border-0">
+								<div className="carousel-item border-0">
 									<img
-										class="d-block w-60 m-auto sec2-carousel-img"
+										className="d-block w-60 m-auto sec2-carousel-img"
 										src={flower2}
 										alt="Second slide"
 									/>
 								</div>
-								<div class="carousel-item border-0">
+								<div className="carousel-item border-0">
 									<img
-										class="d-block w-60 m-auto sec2-carousel-img"
+										className="d-block w-60 m-auto sec2-carousel-img"
 										src={flower3}
 										alt="Second slide"
 									/>
 								</div>
-								<div class="carousel-item border-0">
+								<div className="carousel-item border-0">
 									<img
-										class="d-block w-60 m-auto sec2-carousel-img"
+										className="d-block w-60 m-auto sec2-carousel-img"
 										src={flower4}
 										alt="Second slide"
 									/>
 								</div>
-								<div class="carousel-item border-0">
+								<div className="carousel-item border-0">
 									<img
-										class="d-block w-60 m-auto sec2-carousel-img"
+										className="d-block w-60 m-auto sec2-carousel-img"
 										src={flower5}
 										alt="Second slide"
 									/>
 								</div>
-								<div class="carousel-item border-0">
+								<div className="carousel-item border-0">
 									<img
-										class="d-block w-60 m-auto sec2-carousel-img"
+										className="d-block w-60 m-auto sec2-carousel-img"
 										src={flower6}
 										alt="Second slide"
 									/>
 								</div>
 							</div>
 							<button
-								class="carousel-control-prev sec2-carousel-btn shadow"
+								className="carousel-control-prev sec2-carousel-btn shadow"
 								href="#carouselExampleFade"
 								data-slide="prev"
 							>
-								<i class="fa-solid fa-angle-left"></i>
+								<i className="fa-solid fa-angle-left"></i>
 							</button>
 							<button
-								class="carousel-control-next sec2-carousel-btn shadow"
+								className="carousel-control-next sec2-carousel-btn shadow"
 								href="#carouselExampleFade"
 								data-slide="next"
 							>
-								<i class="fa-solid fa-angle-right"></i>
+								<i className="fa-solid fa-angle-right"></i>
 							</button>
 						</div>
 					</div>
@@ -189,14 +189,14 @@ export default function HomePage() {
 						<div className="sec3-card shadow">
 							<div
 								id="carouselExampleIndicators1"
-								class="carousel slide"
+								className="carousel slide"
 								data-ride="carousel"
 							>
-								<ol class="carousel-indicators sec3-carousel-indicators">
+								<ol className="carousel-indicators sec3-carousel-indicators">
 									<li
 										data-target="#carouselExampleIndicators1"
 										data-slide-to="0"
-										class="active"
+										className="active"
 									></li>
 									<li
 										data-target="#carouselExampleIndicators1"
@@ -211,31 +211,31 @@ export default function HomePage() {
 										data-slide-to="3"
 									></li>
 								</ol>
-								<div class="carousel-inner sec3-carousel-inner">
-									<div class="carousel-item active border-0">
+								<div className="carousel-inner sec3-carousel-inner">
+									<div className="carousel-item active border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower1}
 											alt="First slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower2}
 											alt="Second slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower3}
 											alt="Third slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower4}
 											alt="Fourth slide"
 										/>
@@ -244,7 +244,7 @@ export default function HomePage() {
 							</div>
 							<h4 className="sec1-heading mt-4 mb-2"> Hibiskus</h4>
 							<span className="my-1">
-								<i class="fa-regular fa-circle-check mr-2"></i>I lager
+								<i className="fa-regular fa-circle-check mr-2"></i>I lager
 							</span>
 							<span className="sec2-text my-2">
 								Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -258,14 +258,14 @@ export default function HomePage() {
 						<div className="sec3-card shadow">
 							<div
 								id="carouselExampleIndicators2"
-								class="carousel slide"
+								className="carousel slide"
 								data-ride="carousel"
 							>
-								<ol class="carousel-indicators sec3-carousel-indicators">
+								<ol className="carousel-indicators sec3-carousel-indicators">
 									<li
 										data-target="#carouselExampleIndicators2"
 										data-slide-to="0"
-										class="active"
+										className="active"
 									></li>
 									<li
 										data-target="#carouselExampleIndicators2"
@@ -280,31 +280,31 @@ export default function HomePage() {
 										data-slide-to="3"
 									></li>
 								</ol>
-								<div class="carousel-inner sec3-carousel-inner">
-									<div class="carousel-item active border-0">
+								<div className="carousel-inner sec3-carousel-inner">
+									<div className="carousel-item active border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower5}
 											alt="First slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower6}
 											alt="Second slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower1}
 											alt="Third slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower2}
 											alt="Fourth slide"
 										/>
@@ -313,7 +313,7 @@ export default function HomePage() {
 							</div>
 							<h4 className="sec1-heading mt-4 mb-2"> Hibiskus</h4>
 							<span className="my-1">
-								<i class="fa-regular fa-circle-check mr-2"></i>I lager
+								<i className="fa-regular fa-circle-check mr-2"></i>I lager
 							</span>
 							<span className="sec2-text my-2">
 								Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -327,14 +327,14 @@ export default function HomePage() {
 						<div className="sec3-card shadow">
 							<div
 								id="carouselExampleIndicators3"
-								class="carousel slide"
+								className="carousel slide"
 								data-ride="carousel"
 							>
-								<ol class="carousel-indicators sec3-carousel-indicators">
+								<ol className="carousel-indicators sec3-carousel-indicators">
 									<li
 										data-target="#carouselExampleIndicators3"
 										data-slide-to="0"
-										class="active"
+										className="active"
 									></li>
 									<li
 										data-target="#carouselExampleIndicators3"
@@ -349,31 +349,31 @@ export default function HomePage() {
 										data-slide-to="3"
 									></li>
 								</ol>
-								<div class="carousel-inner sec3-carousel-inner">
-									<div class="carousel-item active border-0">
+								<div className="carousel-inner sec3-carousel-inner">
+									<div className="carousel-item active border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower3}
 											alt="First slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower4}
 											alt="Second slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower5}
 											alt="Third slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower6}
 											alt="Fourth slide"
 										/>
@@ -382,7 +382,7 @@ export default function HomePage() {
 							</div>
 							<h4 className="sec1-heading mt-4 mb-2"> Hibiskus</h4>
 							<span className="my-1">
-								<i class="fa-regular fa-circle-check mr-2"></i>I lager
+								<i className="fa-regular fa-circle-check mr-2"></i>I lager
 							</span>
 							<span className="sec2-text my-2">
 								Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -396,14 +396,14 @@ export default function HomePage() {
 						<div className="sec3-card shadow">
 							<div
 								id="carouselExampleIndicators4"
-								class="carousel slide"
+								className="carousel slide"
 								data-ride="carousel"
 							>
-								<ol class="carousel-indicators sec3-carousel-indicators">
+								<ol className="carousel-indicators sec3-carousel-indicators">
 									<li
 										data-target="#carouselExampleIndicators4"
 										data-slide-to="0"
-										class="active"
+										className="active"
 									></li>
 									<li
 										data-target="#carouselExampleIndicators4"
@@ -418,31 +418,31 @@ export default function HomePage() {
 										data-slide-to="3"
 									></li>
 								</ol>
-								<div class="carousel-inner sec3-carousel-inner">
-									<div class="carousel-item active border-0">
+								<div className="carousel-inner sec3-carousel-inner">
+									<div className="carousel-item active border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower1}
 											alt="First slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower2}
 											alt="Second slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower3}
 											alt="Third slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower4}
 											alt="Fourth slide"
 										/>
@@ -451,7 +451,7 @@ export default function HomePage() {
 							</div>
 							<h4 className="sec1-heading mt-4 mb-2"> Hibiskus</h4>
 							<span className="my-1">
-								<i class="fa-regular fa-circle-check mr-2"></i>I lager
+								<i className="fa-regular fa-circle-check mr-2"></i>I lager
 							</span>
 							<span className="sec2-text my-2">
 								Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -465,14 +465,14 @@ export default function HomePage() {
 						<div className="sec3-card shadow">
 							<div
 								id="carouselExampleIndicators5"
-								class="carousel slide"
+								className="carousel slide"
 								data-ride="carousel"
 							>
-								<ol class="carousel-indicators sec3-carousel-indicators">
+								<ol className="carousel-indicators sec3-carousel-indicators">
 									<li
 										data-target="#carouselExampleIndicators5"
 										data-slide-to="0"
-										class="active"
+										className="active"
 									></li>
 									<li
 										data-target="#carouselExampleIndicators5"
@@ -487,31 +487,31 @@ export default function HomePage() {
 										data-slide-to="3"
 									></li>
 								</ol>
-								<div class="carousel-inner sec3-carousel-inner">
-									<div class="carousel-item active border-0">
+								<div className="carousel-inner sec3-carousel-inner">
+									<div className="carousel-item active border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower5}
 											alt="First slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower6}
 											alt="Second slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower1}
 											alt="Third slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower2}
 											alt="Fourth slide"
 										/>
@@ -520,7 +520,7 @@ export default function HomePage() {
 							</div>
 							<h4 className="sec1-heading mt-4 mb-2"> Hibiskus</h4>
 							<span className="my-1">
-								<i class="fa-regular fa-circle-check mr-2"></i>I lager
+								<i className="fa-regular fa-circle-check mr-2"></i>I lager
 							</span>
 							<span className="sec2-text my-2">
 								Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -534,14 +534,14 @@ export default function HomePage() {
 						<div className="sec3-card shadow">
 							<div
 								id="carouselExampleIndicators6"
-								class="carousel slide"
+								className="carousel slide"
 								data-ride="carousel"
 							>
-								<ol class="carousel-indicators sec3-carousel-indicators">
+								<ol className="carousel-indicators sec3-carousel-indicators">
 									<li
 										data-target="#carouselExampleIndicators6"
 										data-slide-to="0"
-										class="active"
+										className="active"
 									></li>
 									<li
 										data-target="#carouselExampleIndicators6"
@@ -556,31 +556,31 @@ export default function HomePage() {
 										data-slide-to="3"
 									></li>
 								</ol>
-								<div class="carousel-inner sec3-carousel-inner">
-									<div class="carousel-item active border-0">
+								<div className="carousel-inner sec3-carousel-inner">
+									<div className="carousel-item active border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower3}
 											alt="First slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower2}
 											alt="Second slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower1}
 											alt="Third slide"
 										/>
 									</div>
-									<div class="carousel-item border-0">
+									<div className="carousel-item border-0">
 										<img
-											class="d-block m-auto sec3-carousel-img"
+											className="d-block m-auto sec3-carousel-img"
 											src={flower4}
 											alt="Fourth slide"
 										/>
@@ -589,7 +589,7 @@ export default function HomePage() {
 							</div>
 							<h4 className="sec1-heading mt-4 mb-2"> Hibiskus</h4>
 							<span className="my-1">
-								<i class="fa-regular fa-circle-check mr-2"></i>I lager
+								<i className="fa-regular fa-circle-check mr-2"></i>I lager
 							</span>
 							<span className="sec2-text my-2">
 								Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -605,25 +605,28 @@ export default function HomePage() {
 			<div className="sec-padding pt-1 text-center">
 				<div className="sec4-dropdown-wrapper">
 					<h4 className="sec4-dropdown-text mr-3 mb-0"> Se mer</h4>
-					<div class="dropdown">
+					<div className="dropdown">
 						<button
-							class="btn dropdown-toggle secc4-drop-btn"
+							className="btn dropdown-toggle secc4-drop-btn"
 							type="button"
 							id="dropdownMenuButtonHome"
 							data-toggle="dropdown"
 							aria-haspopup="true"
 							aria-expanded="false"
 						>
-							<i class="fa-solid fa-chevron-down"></i>
+							<i className="fa-solid fa-chevron-down"></i>
 						</button>
-						<div class="dropdown-menu" aria-labelledby="dropdownMenuButtonHome">
-							<a class="dropdown-item" href="#">
+						<div
+							className="dropdown-menu"
+							aria-labelledby="dropdownMenuButtonHome"
+						>
+							<a className="dropdown-item" href="#">
 								Option 1
 							</a>
-							<a class="dropdown-item" href="#">
+							<a className="dropdown-item" href="#">
 								Option 2
 							</a>
-							<a class="dropdown-item" href="#">
+							<a className="dropdown-item" href="#">
 								Option 3
 							</a>
 						</div>
@@ -644,16 +647,16 @@ export default function HomePage() {
 				</h5>
 				<div
 					id="carouselExample2"
-					class="carousel slide text-center"
+					className="carousel slide text-center"
 					data-ride="carousel"
 				>
-					<div class="carousel-inner text-center pt-5 px-5">
-						<div class="carousel-item active border-0 sec4-carousel-item">
-							<div class="row sec4-row">
-								<div class="col-md-4">
+					<div className="carousel-inner text-center pt-5 px-5">
+						<div className="carousel-item active border-0 sec4-carousel-item">
+							<div className="row sec4-row">
+								<div className="col-md-4">
 									<div className="sec4-img-wrapper shadow">
 										<img
-											class="d-block m-auto sec4-carousel-img"
+											className="d-block m-auto sec4-carousel-img"
 											src={red1}
 											alt="First slide"
 										/>
@@ -662,18 +665,18 @@ export default function HomePage() {
 									<span className="sec4-price">$15.00/Bit</span>
 									<div className="sec4-cart-btn-wrapper mt-3">
 										<button className="sec4-btn" onClick={decrementCount1}>
-											<i class="fa-solid fa-minus"></i>
+											<i className="fa-solid fa-minus"></i>
 										</button>
 										<span className="sec2-text mx-2">{count1}</span>
 										<button className="sec4-btn" onClick={incrementCount1}>
-											<i class="fa-solid fa-plus"></i>
+											<i className="fa-solid fa-plus"></i>
 										</button>
 									</div>
 								</div>
-								<div class="col-md-4 sec4-mid-col">
+								<div className="col-md-4 sec4-mid-col">
 									<div className="sec4-img-wrapper shadow">
 										<img
-											class="d-block m-auto sec4-carousel-img"
+											className="d-block m-auto sec4-carousel-img"
 											src={red2}
 											alt="First slide"
 										/>
@@ -682,18 +685,18 @@ export default function HomePage() {
 									<span className="sec4-price">$45.00/Bit</span>
 									<div className="sec4-cart-btn-wrapper mt-3">
 										<button className="sec4-btn" onClick={decrementCount2}>
-											<i class="fa-solid fa-minus"></i>
+											<i className="fa-solid fa-minus"></i>
 										</button>
 										<span className="sec2-text mx-2">{count2}</span>
 										<button className="sec4-btn" onClick={incrementCount2}>
-											<i class="fa-solid fa-plus"></i>
+											<i className="fa-solid fa-plus"></i>
 										</button>
 									</div>
 								</div>
-								<div class="col-md-4">
+								<div className="col-md-4">
 									<div className="sec4-img-wrapper shadow">
 										<img
-											class="d-block m-auto sec4-carousel-img"
+											className="d-block m-auto sec4-carousel-img"
 											src={red3}
 											alt="First slide"
 										/>
@@ -702,22 +705,22 @@ export default function HomePage() {
 									<span className="sec4-price">$45.00/Bit</span>
 									<div className="sec4-cart-btn-wrapper mt-3">
 										<button className="sec4-btn" onClick={decrementCount3}>
-											<i class="fa-solid fa-minus"></i>
+											<i className="fa-solid fa-minus"></i>
 										</button>
 										<span className="sec2-text mx-2">{count3}</span>
 										<button className="sec4-btn" onClick={incrementCount3}>
-											<i class="fa-solid fa-plus"></i>
+											<i className="fa-solid fa-plus"></i>
 										</button>
 									</div>
 								</div>
 							</div>
 						</div>
-						{/* <div class="carousel-item border-0 sec4-carousel-item">
-							<div class="row sec4-row">
-								<div class="col-md-4">
+						<div className="carousel-item border-0 sec4-carousel-item">
+							<div className="row sec4-row">
+								<div className="col-md-4">
 									<div className="sec4-img-wrapper shadow">
 										<img
-											class="d-block m-auto sec4-carousel-img"
+											className="d-block m-auto sec4-carousel-img"
 											src={red3}
 											alt="First slide"
 										/>
@@ -726,18 +729,18 @@ export default function HomePage() {
 									<span className="sec4-price">$15.00/Bit</span>
 									<div className="sec4-cart-btn-wrapper mt-3">
 										<button className="sec4-btn" onClick={decrementCount1}>
-											<i class="fa-solid fa-minus"></i>
+											<i className="fa-solid fa-minus"></i>
 										</button>
 										<span className="sec2-text mx-2">{count1}</span>
 										<button className="sec4-btn" onClick={incrementCount1}>
-											<i class="fa-solid fa-plus"></i>
+											<i className="fa-solid fa-plus"></i>
 										</button>
 									</div>
 								</div>
-								<div class="col-md-4 sec4-mid-col">
+								<div className="col-md-4 sec4-mid-col">
 									<div className="sec4-img-wrapper shadow">
 										<img
-											class="d-block m-auto sec4-carousel-img"
+											className="d-block m-auto sec4-carousel-img"
 											src={red2}
 											alt="First slide"
 										/>
@@ -746,18 +749,18 @@ export default function HomePage() {
 									<span className="sec4-price">$45.00/Bit</span>
 									<div className="sec4-cart-btn-wrapper mt-3">
 										<button className="sec4-btn" onClick={decrementCount2}>
-											<i class="fa-solid fa-minus"></i>
+											<i className="fa-solid fa-minus"></i>
 										</button>
 										<span className="sec2-text mx-2">{count2}</span>
 										<button className="sec4-btn" onClick={incrementCount2}>
-											<i class="fa-solid fa-plus"></i>
+											<i className="fa-solid fa-plus"></i>
 										</button>
 									</div>
 								</div>
-								<div class="col-md-4">
+								<div className="col-md-4">
 									<div className="sec4-img-wrapper shadow">
 										<img
-											class="d-block m-auto sec4-carousel-img"
+											className="d-block m-auto sec4-carousel-img"
 											src={red1}
 											alt="First slide"
 										/>
@@ -766,30 +769,30 @@ export default function HomePage() {
 									<span className="sec4-price">$45.00/Bit</span>
 									<div className="sec4-cart-btn-wrapper mt-3">
 										<button className="sec4-btn" onClick={decrementCount3}>
-											<i class="fa-solid fa-minus"></i>
+											<i className="fa-solid fa-minus"></i>
 										</button>
 										<span className="sec2-text mx-2">{count3}</span>
 										<button className="sec4-btn" onClick={incrementCount3}>
-											<i class="fa-solid fa-plus"></i>
+											<i className="fa-solid fa-plus"></i>
 										</button>
 									</div>
 								</div>
 							</div>
-						</div> */}
+						</div>
 					</div>
 					<button
-						class="carousel-control-prev sec2-carousel-btn shadow"
+						className="carousel-control-prev sec2-carousel-btn shadow"
 						href="#carouselExample2"
 						data-slide="prev"
 					>
-						<i class="fa-solid fa-angle-left"></i>
+						<i className="fa-solid fa-angle-left"></i>
 					</button>
 					<button
-						class="carousel-control-next sec2-carousel-btn shadow"
+						className="carousel-control-next sec2-carousel-btn shadow"
 						href="#carouselExample2"
 						data-slide="next"
 					>
-						<i class="fa-solid fa-angle-right"></i>
+						<i className="fa-solid fa-angle-right"></i>
 					</button>
 				</div>
 				<button className="sec1-btn my-4 mt-5">Designa bukett</button>
@@ -812,9 +815,9 @@ export default function HomePage() {
 						om.
 					</h5>
 					<div className="sec5-icons">
-						<i class="fa-brands fa-instagram"></i>
-						<i class="fa-brands fa-snapchat mx-5"></i>
-						<i class="fa-brands fa-facebook"></i>
+						<i className="fa-brands fa-instagram"></i>
+						<i className="fa-brands fa-snapchat mx-5"></i>
+						<i className="fa-brands fa-facebook"></i>
 					</div>
 				</div>
 			</div>
@@ -899,101 +902,101 @@ export default function HomePage() {
 			{/* <div className="sec8-padding">
 				<h2 className="sec2-heading text-center">Recensioner</h2>
 
-				<div class="owl-carousel owl-theme mt-5">
-					<div class="owl-item">
-						<div class="card">
-							<div class="img-card">
+				<div className="owl-carousel owl-theme mt-5">
+					<div className="owl-item">
+						<div className="card">
+							<div className="img-card">
 								<img
 									src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
 									alt=""
 								/>
 							</div>
-							<div class="testimonial mt-4 mb-2">
+							<div className="testimonial mt-4 mb-2">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Accusamus expedita dicta doloremque odit saepe quo natus aut
 								accusantium alias blanditiis.
 							</div>
-							<div class="name">Denis Richie</div>
+							<div className="name">Denis Richie</div>
 						</div>
 					</div>
-					<div class="owl-item">
-						<div class="card">
-							<div class="img-card">
+					<div className="owl-item">
+						<div className="card">
+							<div className="img-card">
 								<img
 									src="https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
 									alt=""
 								/>
 							</div>
-							<div class="testimonial mt-4 mb-2">
+							<div className="testimonial mt-4 mb-2">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Accusamus expedita dicta doloremque odit saepe quo natus aut
 								accusantium alias blanditiis.
 							</div>
-							<div class="name">Lisa Sthalekar</div>
+							<div className="name">Lisa Sthalekar</div>
 						</div>
 					</div>
-					<div class="owl-item">
-						<div class="card">
-							<div class="img-card">
+					<div className="owl-item">
+						<div className="card">
+							<div className="img-card">
 								<img
 									src="https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
 									alt=""
 								/>
 							</div>
-							<div class="testimonial mt-4 mb-2">
+							<div className="testimonial mt-4 mb-2">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Accusamus expedita dicta doloremque odit saepe quo natus aut
 								accusantium alias blanditiis.
 							</div>
-							<div class="name">Elizabith Richie</div>
+							<div className="name">Elizabith Richie</div>
 						</div>
 					</div>
-					<div class="owl-item">
-						<div class="card">
-							<div class="img-card">
+					<div className="owl-item">
+						<div className="card">
+							<div className="img-card">
 								<img
 									src="https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
 									alt=""
 								/>
 							</div>
-							<div class="testimonial mt-4 mb-2">
+							<div className="testimonial mt-4 mb-2">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Accusamus expedita dicta doloremque odit saepe quo natus aut
 								accusantium alias blanditiis.
 							</div>
-							<div class="name">Daniel Xavier</div>
+							<div className="name">Daniel Xavier</div>
 						</div>
 					</div>
-					<div class="owl-item">
-						<div class="card">
-							<div class="img-card">
+					<div className="owl-item">
+						<div className="card">
+							<div className="img-card">
 								<img
 									src="https://images.pexels.com/photos/1832959/pexels-photo-1832959.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
 									alt=""
 								/>
 							</div>
-							<div class="testimonial mt-4 mb-2">
+							<div className="testimonial mt-4 mb-2">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Accusamus expedita dicta doloremque odit saepe quo natus aut
 								accusantium alias blanditiis.
 							</div>
-							<div class="name">Emma Watson</div>
+							<div className="name">Emma Watson</div>
 						</div>
 					</div>
-					<div class="owl-item">
-						<div class="card">
-							<div class="img-card">
+					<div className="owl-item">
+						<div className="card">
+							<div className="img-card">
 								<img
 									src="https://images.pexels.com/photos/718261/pexels-photo-718261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
 									alt=""
 								/>
 							</div>
-							<div class="testimonial mt-4 mb-2">
+							<div className="testimonial mt-4 mb-2">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit.
 								Accusamus expedita dicta doloremque odit saepe quo natus aut
 								accusantium alias blanditiis.
 							</div>
-							<div class="name">Mohammad Imran</div>
+							<div className="name">Mohammad Imran</div>
 						</div>
 					</div>
 				</div>
