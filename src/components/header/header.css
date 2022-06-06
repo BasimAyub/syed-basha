@@ -1,19 +1,19 @@
 body {
-	background-color: #FBFBFB;
+	background-color: #fbfbfb;
 }
 
 .header {
 	border-bottom: 1px solid #e4e6eb;
 }
 
-.header-brand-logo-wrapper{
-    display: flex;
-    justify-content:center;
+.header-brand-logo-wrapper {
+	display: flex;
+	justify-content: center;
 }
 
 .header-brand-logo {
 	width: 250px;
-    padding: 1em;
+	padding: 1em;
 }
 
 .navbar {
@@ -30,7 +30,7 @@ body {
 	width: auto;
 	border: none !important;
 	background-color: transparent;
-    padding: 0 1.2em !important;
+	padding: 0 1.2em !important;
 }
 
 .header-custom-select:focus {
@@ -59,8 +59,7 @@ body {
 }
 
 @media only screen and (max-width: 991px) {
-  .header-custom-select {
-    padding: 0 !important;
-}
-
+	.header-custom-select {
+		padding: 0 !important;
+	}
 }

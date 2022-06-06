@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./footer.css";
+import Icon1 from "../../assets/postnod.png";
+import Icon2 from "../../assets/klara.svg";
+import Icon3 from "../../assets/master.svg";
+import Icon4 from "../../assets/paypal.png";
 
 export default function Footer(props) {
-	useEffect(() => {}, []);
-
 	return (
 		<div className="footer">
 			<div className="footer-upper-card shadow">
@@ -34,8 +36,23 @@ export default function Footer(props) {
 				</a>
 			</div>
 			<div className="footer-lower-icons">
-				<i class="fa-brands fa-cc-visa"></i>
-				<i class="fab fa-stripe"></i>
+				<img
+					src={Icon1}
+					className="footer-icon footer-img1"
+					width={"100px"}
+					height={"30px"}
+				/>
+				<img src={Icon2} className="footer-icon footer-img2" width={"60px"} />
+				<img src={Icon3} className="footer-icon footer-img3" width={"40px"} />
+				<i
+					class="fa-brands fa-cc-visa footer-icon footer-icon1"
+					style={{ fontSize: "2rem" }}
+				></i>
+				<img src={Icon4} className="footer-icon footer-img4" width={"40px"} />
+				<i
+					class="fab fa-stripe footer-icon footer-icon2"
+					style={{ fontSize: "2rem" }}
+				></i>
 			</div>
 		</div>
 	);
