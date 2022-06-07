@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Cart2 from "../../components/cart/cart2";
 import Cart3 from "../../components/cart/cart3";
@@ -9,8 +9,21 @@ import "./cart.css";
 
 export default function Cart() {
   const [step, setStep] = useState(2);
+  const [flag, setFlag] = useState(true);
+  const [stepClass, setClass] = useState(["", "", "", ""]);
+  useEffect(() => {
+    if (flag) {
+      var temp = ["", "", "", ""];
+      for (var i = 0; i < step; i++) {
+        temp[i] = "doneStep";
+      }
+      setClass(temp);
+      setFlag(false);
+    }
+  });
   function change3() {
     setStep(3);
+    setFlag(true);
   }
   return (
     <div>
@@ -29,17 +42,35 @@ export default function Cart() {
           </Link>
         </div>
         <div className="cartSteps d-flex justify-content-center">
-          <p className="doneStep">1</p>
+          <p className={stepClass[0]}>1</p>
           <hr />
-          <p className="doneStep" onClick={() => setStep(2)}>
+          <p
+            className={stepClass[1]}
+            onClick={() => {
+              setStep(2);
+              setFlag(true);
+            }}
+          >
             2
           </p>
           <hr />
-          <p className="" onClick={() => setStep(3)}>
+          <p
+            className={stepClass[2]}
+            onClick={() => {
+              setStep(3);
+              setFlag(true);
+            }}
+          >
             3
           </p>
           <hr />
-          <p className="" onClick={() => setStep(4)}>
+          <p
+            className={stepClass[3]}
+            onClick={() => {
+              setStep(4);
+              setFlag(true);
+            }}
+          >
             4
           </p>
         </div>
