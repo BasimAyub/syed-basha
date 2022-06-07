@@ -55,9 +55,9 @@
   cursor: pointer;
   user-select: none;
   border-radius: 50%;
-  box-shadow: 10px 11px 51px 13px rgba(174, 174, 174, 0.4);
-  -webkit-box-shadow: 10px 11px 51px 13px rgba(174, 174, 174, 0.4);
-  -moz-box-shadow: 10px 11px 51px 13px rgba(174, 174, 174, 0.4);
+  box-shadow: 5px 6px 9px 0px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 5px 6px 9px 0px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 5px 6px 9px 0px rgba(0, 0, 0, 0.23);
 }
 
 .cartSteps .doneStep {
@@ -76,4 +76,9 @@
   width: 30%;
   min-width: 20px;
   margin-top: 30px;
+}
+
+.cartContent {
+  width: 80%;
+  margin: auto;
 }

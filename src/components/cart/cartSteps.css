@@ -1,0 +1,77 @@
+.cartTable .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.cartTable {
+  margin-bottom: 60px;
+}
+
+.tableProduct img {
+  max-width: 100px;
+}
+
+.tableProduct p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cartIncrementer button {
+  background-color: white !important;
+  background-image: none;
+  padding: 15px 16px;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+  margin: auto 8px;
+}
+
+.cartTableBottom {
+  margin-bottom: 90px;
+}
+
+.cartTableBottom p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cartTableBottom button {
+  text-align: center;
+  border: none;
+  border-radius: 30px;
+  background-color: #bcc7e7;
+  color: black;
+  padding: 20px;
+}
+
+@media (max-width: 595px) {
+  .cartTableBottom {
+    justify-content: center !important;
+  }
+}
+
+.greetingCardsMain {
+  text-align: center;
+}
+
+.greetingCardsMain h4 {
+  margin-bottom: 40px;
+}
+
+.greetingCards {
+  justify-content: center;
+}
+
+.greetindCard {
+  display: flex;
+  justify-content: center;
+  margin: 0px auto 40px;
+}
+
+.greetindCard div {
+  cursor: pointer;
+}
+
+.greetindCard p {
+  margin-top: 22px;
+}
