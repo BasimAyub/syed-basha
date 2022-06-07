@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Header from "../components/header/header";
 import Footer from "../components/footer/footer";
+import OwlCarousel from "../components/owlCarousel1";
 import "./css/styles.css";
 import pic1 from "../assets/firstection 1.png";
 import pic2 from "../assets/sec7.png";
@@ -21,9 +22,7 @@ import Sec6Vector3 from "../assets/vector-sec6 (3).png";
 import Sec6Vector4 from "../assets/vector-sec6 (4).png";
 import Sec6Vector5 from "../assets/vector-sec6 (5).png";
 import Sec6Vector6 from "../assets/vector-sec6 (6).png";
-import Person1 from "../assets/person (1).png";
-import Person2 from "../assets/person (2).png";
-import Person3 from "../assets/person (3).png";
+
 import Frame1 from "../assets/frame1.png";
 import Frame2 from "../assets/frame2.png";
 import Sec10Icon1 from "../assets/sec10 icon (1).png";
@@ -48,16 +47,14 @@ export default function HomePage() {
 	};
 
 	const decrementCount1 = () => {
-		setCount1(count1 - 1);
+		if (count1 > 0) setCount1(count1 - 1);
 	};
 	const decrementCount2 = () => {
-		setCount2(count2 - 1);
+		if (count2 > 0) setCount2(count2 - 1);
 	};
 	const decrementCount3 = () => {
-		setCount3(count3 - 1);
+		if (count3 > 0) setCount3(count3 - 1);
 	};
-
-	useEffect(() => {}, []);
 	return (
 		<div>
 			<Header page={1} />
@@ -653,7 +650,7 @@ export default function HomePage() {
 					<div className="carousel-inner text-center pt-5 px-5">
 						<div className="carousel-item active border-0 sec4-carousel-item">
 							<div className="row sec4-row">
-								<div className="col-md-4">
+								<div className="col-md-4 sec4-left-col">
 									<div className="sec4-img-wrapper shadow">
 										<img
 											className="d-block m-auto sec4-carousel-img"
@@ -693,7 +690,7 @@ export default function HomePage() {
 										</button>
 									</div>
 								</div>
-								<div className="col-md-4">
+								<div className="col-md-4 sec4-right-col">
 									<div className="sec4-img-wrapper shadow">
 										<img
 											className="d-block m-auto sec4-carousel-img"
@@ -717,7 +714,7 @@ export default function HomePage() {
 						</div>
 						<div className="carousel-item border-0 sec4-carousel-item">
 							<div className="row sec4-row">
-								<div className="col-md-4">
+								<div className="col-md-4 sec4-left-col">
 									<div className="sec4-img-wrapper shadow">
 										<img
 											className="d-block m-auto sec4-carousel-img"
@@ -757,11 +754,75 @@ export default function HomePage() {
 										</button>
 									</div>
 								</div>
-								<div className="col-md-4">
+								<div className="col-md-4 sec4-right-col">
 									<div className="sec4-img-wrapper shadow">
 										<img
 											className="d-block m-auto sec4-carousel-img"
 											src={red1}
+											alt="First slide"
+										/>
+									</div>
+									<h5 className="sec4-caption mt-5 mb-4">RÖTT LARM</h5>
+									<span className="sec4-price">$45.00/Bit</span>
+									<div className="sec4-cart-btn-wrapper mt-3">
+										<button className="sec4-btn" onClick={decrementCount3}>
+											<i className="fa-solid fa-minus"></i>
+										</button>
+										<span className="sec2-text mx-2">{count3}</span>
+										<button className="sec4-btn" onClick={incrementCount3}>
+											<i className="fa-solid fa-plus"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="carousel-item border-0 sec4-carousel-item">
+							<div className="row sec4-row">
+								<div className="col-md-4 sec4-left-col">
+									<div className="sec4-img-wrapper shadow">
+										<img
+											className="d-block m-auto sec4-carousel-img"
+											src={red2}
+											alt="First slide"
+										/>
+									</div>
+									<h5 className="sec4-caption mt-5 mb-4">RÖTT LARM</h5>
+									<span className="sec4-price">$15.00/Bit</span>
+									<div className="sec4-cart-btn-wrapper mt-3">
+										<button className="sec4-btn" onClick={decrementCount1}>
+											<i className="fa-solid fa-minus"></i>
+										</button>
+										<span className="sec2-text mx-2">{count1}</span>
+										<button className="sec4-btn" onClick={incrementCount1}>
+											<i className="fa-solid fa-plus"></i>
+										</button>
+									</div>
+								</div>
+								<div className="col-md-4 sec4-mid-col">
+									<div className="sec4-img-wrapper shadow">
+										<img
+											className="d-block m-auto sec4-carousel-img"
+											src={red1}
+											alt="First slide"
+										/>
+									</div>
+									<h5 className="sec4-caption mt-5 mb-4">RÖTT LARM</h5>
+									<span className="sec4-price">$45.00/Bit</span>
+									<div className="sec4-cart-btn-wrapper mt-3">
+										<button className="sec4-btn" onClick={decrementCount2}>
+											<i className="fa-solid fa-minus"></i>
+										</button>
+										<span className="sec2-text mx-2">{count2}</span>
+										<button className="sec4-btn" onClick={incrementCount2}>
+											<i className="fa-solid fa-plus"></i>
+										</button>
+									</div>
+								</div>
+								<div className="col-md-4 sec4-right-col">
+									<div className="sec4-img-wrapper shadow">
+										<img
+											className="d-block m-auto sec4-carousel-img"
+											src={red3}
 											alt="First slide"
 										/>
 									</div>
@@ -899,108 +960,11 @@ export default function HomePage() {
 				</div>
 			</div>
 
-			{/* <div className="sec8-padding">
-				<h2 className="sec2-heading text-center">Recensioner</h2>
+			<div className="sec8-padding sec-8">
+				<h2 className="sec2-heading text-center mb-0">Recensioner</h2>
 
-				<div className="owl-carousel owl-theme mt-5">
-					<div className="owl-item">
-						<div className="card">
-							<div className="img-card">
-								<img
-									src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-									alt=""
-								/>
-							</div>
-							<div className="testimonial mt-4 mb-2">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Accusamus expedita dicta doloremque odit saepe quo natus aut
-								accusantium alias blanditiis.
-							</div>
-							<div className="name">Denis Richie</div>
-						</div>
-					</div>
-					<div className="owl-item">
-						<div className="card">
-							<div className="img-card">
-								<img
-									src="https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-									alt=""
-								/>
-							</div>
-							<div className="testimonial mt-4 mb-2">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Accusamus expedita dicta doloremque odit saepe quo natus aut
-								accusantium alias blanditiis.
-							</div>
-							<div className="name">Lisa Sthalekar</div>
-						</div>
-					</div>
-					<div className="owl-item">
-						<div className="card">
-							<div className="img-card">
-								<img
-									src="https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-									alt=""
-								/>
-							</div>
-							<div className="testimonial mt-4 mb-2">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Accusamus expedita dicta doloremque odit saepe quo natus aut
-								accusantium alias blanditiis.
-							</div>
-							<div className="name">Elizabith Richie</div>
-						</div>
-					</div>
-					<div className="owl-item">
-						<div className="card">
-							<div className="img-card">
-								<img
-									src="https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-									alt=""
-								/>
-							</div>
-							<div className="testimonial mt-4 mb-2">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Accusamus expedita dicta doloremque odit saepe quo natus aut
-								accusantium alias blanditiis.
-							</div>
-							<div className="name">Daniel Xavier</div>
-						</div>
-					</div>
-					<div className="owl-item">
-						<div className="card">
-							<div className="img-card">
-								<img
-									src="https://images.pexels.com/photos/1832959/pexels-photo-1832959.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-									alt=""
-								/>
-							</div>
-							<div className="testimonial mt-4 mb-2">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Accusamus expedita dicta doloremque odit saepe quo natus aut
-								accusantium alias blanditiis.
-							</div>
-							<div className="name">Emma Watson</div>
-						</div>
-					</div>
-					<div className="owl-item">
-						<div className="card">
-							<div className="img-card">
-								<img
-									src="https://images.pexels.com/photos/718261/pexels-photo-718261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-									alt=""
-								/>
-							</div>
-							<div className="testimonial mt-4 mb-2">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Accusamus expedita dicta doloremque odit saepe quo natus aut
-								accusantium alias blanditiis.
-							</div>
-							<div className="name">Mohammad Imran</div>
-						</div>
-					</div>
-				</div>
-			</div> */}
+				<OwlCarousel />
+			</div>
 
 			<div className="sec9">
 				<img src={Frame1} className="sec9-img-left" />
