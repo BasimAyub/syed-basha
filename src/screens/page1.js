@@ -583,9 +583,8 @@ export default function Page1() {
 				</div>
 			</div>
 
-			<div className="sec8-padding sec-8">
+			<div className="sec8-padding">
 				<h2 className="sec2-heading text-center mb-0">Recensioner</h2>
-
 				<OwlCarousel />
 			</div>
 

@@ -35,6 +35,7 @@ body {
 
 .header-custom-select:focus {
 	box-shadow: none;
+	outline: 0 !important;
 }
 
 .header-badge {

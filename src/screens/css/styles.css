@@ -79,7 +79,7 @@ body {
 }
 
 .sec2-carousel-img {
-	width: 50%;
+	max-width: 100%;
 }
 
 .sec2-carousel-btn {
@@ -125,12 +125,12 @@ body {
 }
 
 .sec3-carousel-img {
-	width: 80%;
+	max-width: 100% !important;
 }
 
-.top {
+/* .top {
 	margin-top: 2rem;
-}
+} */
 
 /* SECTION 4 */
 .pg3-carousel-item {
@@ -228,9 +228,10 @@ body {
 }
 .sec5-icons {
 	display: flex;
-	justify-content: space-around;
-	width: 70%;
-	margin: auto;
+	/* justify-content: space-around; */
+	justify-content: center;
+	/* width: 70%; */
+	/* margin: auto; */
 	color: #bcc7e7;
 	margin-top: 1.5rem;
 }
@@ -309,8 +310,32 @@ body {
 }
 
 .owl-theme .owl-nav {
-	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0;
 }
+
+.owl-theme .owl-nav button {
+	color: #bcc7e7 !important;
+	background-color: #fff !important;
+	border-radius: 50% !important;
+	height: 30px !important;
+	width: 30px !important;
+	font-size: 30px !important;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	box-shadow: 0.2em 0.2rem 0.9rem rgb(0 0 0 / 8%), -0.2em -0.2rem 0.8rem #fff !important;
+}
+
+.owl-theme .owl-nav .owl-prev {
+	margin-right: 1rem !important;
+}
+.owl-theme .owl-nav .owl-next {
+	margin-left: 1rem !important;
+}
+
 .owl-carousel .owl-item {
 	transition: all 0.3s ease-in-out;
 	border-bottom: none;
@@ -444,11 +469,114 @@ body {
 	flex-direction: column;
 }
 
+/* PAGE 3 */
+.pg3-sec1 {
+	padding: 2rem;
+	width: 100%;
+}
+.pg3-img1 {
+	width: 100%;
+}
+.pg3-img1-small {
+	width: 18%;
+}
+.pg3-card-area {
+	padding: 1.5rem;
+}
+.pg3-line1 {
+	font-size: 1.12rem;
+}
+
+.pg3-line2 {
+	font-size: 1rem;
+}
+.pg3-square {
+	max-width: 400px;
+}
+
+.gold {
+	color: #ffb23e;
+}
+
+.grey {
+	color: #c0c0c0;
+}
+.pg3-spacer {
+	background-color: #e3e3e3;
+	padding-top: 1px;
+}
+.pg3-upper-spacer {
+	background-color: #e4e6eb;
+	padding-top: 1px;
+	width: 60%;
+}
+.pg3-price {
+	font-size: 1.75rem;
+	margin-top: 3rem;
+	margin-bottom: 1.5rem;
+}
+.pg3-icon-grey {
+	color: #838d8f;
+}
+.pg3-line3 {
+	font-size: 0.8rem;
+}
+
+.pg3-line3 {
+	font-size: 0.8rem;
+}
+.pg3-mxw {
+	max-width: 90%;
+}
+.pg3-sec1-btn {
+	display: none;
+}
+.pg3-last-sec {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 5rem 0rem;
+}
+.pg3-icon1 {
+	margin-right: 0.5rem;
+}
+
+.pg3-icon2 {
+	margin-left: 1.5rem;
+	margin-right: 0.5rem;
+}
+.pg3-float-right {
+	justify-content: end;
+}
+.pg3-float-center {
+	padding: 0;
+}
+.person-img {
+	max-height: 4.375rem;
+	max-width: 4.375rem;
+	border-radius: 50%;
+	margin-right: 1.5rem;
+	background: #e6e4ff;
+}
+
 @media (min-width: 480.6px) and (max-width: 575.5px) {
 	.owl-carousel .owl-item .card .name {
 		left: 24%;
 	}
 }
+
+@media (max-width: 992px) {
+	.sec2-right {
+		margin-bottom: 3rem;
+		padding: 0 1rem;
+	}
+}
+/* @media (min-width: 992px) {
+	.top {
+		margin-top: 0;
+	}
+} */
 
 @media (max-width: 360px) {
 	.owl-carousel .owl-item .card .name {
@@ -487,9 +615,9 @@ body {
 	.sec3-card {
 		margin-bottom: 2rem;
 	}
-	.top {
+	/* .top {
 		margin-top: 0;
-	}
+	} */
 	.sec5-card {
 		padding: 1rem 1rem;
 		width: 95%;
@@ -499,11 +627,7 @@ body {
 		width: 80%;
 	}
 	.sec2-carousel-img {
-		width: 75%;
-	}
-	.sec2-right {
-		margin-top: 3rem;
-		padding: 0 1rem;
+		/* width: 75%; */
 	}
 	.pg3-carousel-item {
 		padding-top: 0.3rem;
@@ -528,12 +652,16 @@ body {
 	.sec7-img {
 		display: none;
 	}
-	.sec-8 {
+	/* .sec-8 {
 		display: none;
+	} */
+	.sec8-padding {
+		padding: 3rem 0;
 	}
 	.sec9 {
 		padding: 5rem 1.5rem;
 		margin-bottom: 0;
+		margin-top: 0;
 	}
 	.input-btn-wrapper {
 		flex-direction: column;
@@ -558,5 +686,58 @@ body {
 	}
 	.sec10 {
 		padding: 2rem 1rem;
+	}
+	.pg3-sec1 {
+		padding: 2rem 1rem;
+	}
+	.pg3-sec1-right {
+		margin-top: 2rem;
+	}
+	.pg3-sec1-btn {
+		display: block;
+	}
+	.pg3-last-sec {
+		padding: 2rem 0rem;
+	}
+	.pg3-icon1 {
+		margin-right: 0.3rem;
+	}
+
+	.pg3-icon2 {
+		margin-left: 1rem;
+		margin-right: 0.3rem;
+	}
+	.pg3-float-right {
+		justify-content: center;
+	}
+	.pg3-float-center {
+		display: flex;
+		justify-content: center;
+		margin-top: 1rem;
+	}
+	.pg3-price {
+		margin-top: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+	.pg3-right-btn {
+		margin-bottom: 1rem;
+	}
+	.pg3-card-area {
+		padding: 0.7rem;
+	}
+	.pg3-mxw {
+		max-width: 60%;
+		margin-top: 2rem;
+	}
+	.img-col {
+		flex-basis: content;
+	}
+	.btn-small {
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+	.sec4-dropdown-wrapper {
+		margin-bottom: 2rem;
 	}
 }

@@ -61,10 +61,10 @@ export default function HomePage() {
 
 			<div className="sec-padding">
 				<div className="row align-items-center">
-					<div className="col-md-6 text-center">
+					<div className="col-lg-6 text-center">
 						<img src={pic1} className="sec1-img" />
 					</div>
-					<div className="col-md-6">
+					<div className="col-lg-6">
 						<div className="sec1-card shadow">
 							<h4 className="sec1-heading my-4">
 								PostaBlomster tar blomsteraffären till din skärm
@@ -84,31 +84,8 @@ export default function HomePage() {
 
 			<div className="sec-padding">
 				<h2 className="sec2-heading text-center">Populär blomgåva</h2>
-				<div className="row align-items-center">
-					<div className="col-md-5">
-						<div className="sec2-card shadow">
-							<h4 className="sec1-heading mt-4 mb-3">Reste sig</h4>
-							<span className="my-1">
-								<i className="fa-regular fa-circle-check mr-2"></i>
-								Stor
-							</span>
-							<span className="sec2-text my-2">
-								Vill du överraska någon med en fin present genom brevlådan?
-							</span>
-
-							<h5 className="my-2 sec2-text-bold">Leverans till brevlådan</h5>
-							<span className="my-2">
-								<i className="fa-solid fa-up-down mr-2"></i>30 CM
-							</span>
-							<span className="my-2">
-								<img src={Vector} className="mr-2" width={"20px"} />
-								25 Blommor
-							</span>
-							<span className="sec2-price">kr 195,00</span>
-							<button className="sec2-btn mt-4">Beställ nu</button>
-						</div>
-					</div>
-					<div className="col-md-7 sec2-right">
+				<div className="row align-items-center flex-row-reverse">
+					<div className="col-lg-7 sec2-right">
 						<div
 							id="carouselExampleFade"
 							className="carousel slide text-center"
@@ -174,6 +151,29 @@ export default function HomePage() {
 							</button>
 						</div>
 					</div>
+					<div className="col-lg-5">
+						<div className="sec2-card shadow">
+							<h4 className="sec1-heading mt-4 mb-3">Reste sig</h4>
+							<span className="my-1">
+								<i className="fa-regular fa-circle-check mr-2"></i>
+								Stor
+							</span>
+							<span className="sec2-text my-2">
+								Vill du överraska någon med en fin present genom brevlådan?
+							</span>
+
+							<h5 className="my-2 sec2-text-bold">Leverans till brevlådan</h5>
+							<span className="my-2">
+								<i className="fa-solid fa-up-down mr-2"></i>30 CM
+							</span>
+							<span className="my-2">
+								<img src={Vector} className="mr-2" width={"20px"} />
+								25 Blommor
+							</span>
+							<span className="sec2-price">kr 195,00</span>
+							<button className="sec2-btn mt-4">Beställ nu</button>
+						</div>
+					</div>
 				</div>
 			</div>
 
@@ -182,7 +182,7 @@ export default function HomePage() {
 					Skicka blommor till brevlådan
 				</h2>
 				<div className="row align-items-center text-center">
-					<div className="col-md-4">
+					<div className="col-lg-4 col-md-6 my-3">
 						<div className="sec3-card shadow">
 							<div
 								id="carouselExampleIndicators1"
@@ -251,7 +251,7 @@ export default function HomePage() {
 							<button className="sec2-btn mt-4">Beställ nu</button>
 						</div>
 					</div>
-					<div className="col-md-4">
+					<div className="col-lg-4 col-md-6 my-3">
 						<div className="sec3-card shadow">
 							<div
 								id="carouselExampleIndicators2"
@@ -320,7 +320,7 @@ export default function HomePage() {
 							<button className="sec2-btn mt-4">Beställ nu</button>
 						</div>
 					</div>
-					<div className="col-md-4">
+					<div className="col-lg-4 col-md-6 my-3">
 						<div className="sec3-card shadow">
 							<div
 								id="carouselExampleIndicators3"
@@ -389,7 +389,7 @@ export default function HomePage() {
 							<button className="sec2-btn mt-4">Beställ nu</button>
 						</div>
 					</div>
-					<div className="col-md-4 top">
+					<div className="col-lg-4 col-md-6 my-3">
 						<div className="sec3-card shadow">
 							<div
 								id="carouselExampleIndicators4"
@@ -458,7 +458,7 @@ export default function HomePage() {
 							<button className="sec2-btn mt-4">Beställ nu</button>
 						</div>
 					</div>
-					<div className="col-md-4 top">
+					<div className="col-lg-4 col-md-6 my-3">
 						<div className="sec3-card shadow">
 							<div
 								id="carouselExampleIndicators5"
@@ -527,7 +527,7 @@ export default function HomePage() {
 							<button className="sec2-btn mt-4">Beställ nu</button>
 						</div>
 					</div>
-					<div className="col-md-4 top">
+					<div className="col-lg-4 col-md-6 my-3">
 						<div className="sec3-card shadow">
 							<div
 								id="carouselExampleIndicators6"
@@ -650,7 +650,7 @@ export default function HomePage() {
 					<div className="carousel-inner text-center pt-5 px-5">
 						<div className="carousel-item active border-0 sec4-carousel-item">
 							<div className="row sec4-row">
-								<div className="col-md-4 sec4-left-col">
+								<div className="col-lg-4 col-md-6 sec4-left-col">
 									<div className="sec4-img-wrapper shadow">
 										<img
 											className="d-block m-auto sec4-carousel-img"
@@ -670,7 +670,7 @@ export default function HomePage() {
 										</button>
 									</div>
 								</div>
-								<div className="col-md-4 sec4-mid-col">
+								<div className="col-lg-4 col-md-6 sec4-mid-col">
 									<div className="sec4-img-wrapper shadow">
 										<img
 											className="d-block m-auto sec4-carousel-img"
@@ -690,7 +690,7 @@ export default function HomePage() {
 										</button>
 									</div>
 								</div>
-								<div className="col-md-4 sec4-right-col">
+								<div className="col-lg-4 col-md-6 sec4-right-col">
 									<div className="sec4-img-wrapper shadow">
 										<img
 											className="d-block m-auto sec4-carousel-img"
@@ -714,7 +714,7 @@ export default function HomePage() {
 						</div>
 						<div className="carousel-item border-0 sec4-carousel-item">
 							<div className="row sec4-row">
-								<div className="col-md-4 sec4-left-col">
+								<div className="col-lg-4 col-md-6 sec4-left-col">
 									<div className="sec4-img-wrapper shadow">
 										<img
 											className="d-block m-auto sec4-carousel-img"
@@ -734,7 +734,7 @@ export default function HomePage() {
 										</button>
 									</div>
 								</div>
-								<div className="col-md-4 sec4-mid-col">
+								<div className="col-lg-4 col-md-6 sec4-mid-col">
 									<div className="sec4-img-wrapper shadow">
 										<img
 											className="d-block m-auto sec4-carousel-img"
@@ -754,7 +754,7 @@ export default function HomePage() {
 										</button>
 									</div>
 								</div>
-								<div className="col-md-4 sec4-right-col">
+								<div className="col-lg-4 col-md-6 sec4-right-col">
 									<div className="sec4-img-wrapper shadow">
 										<img
 											className="d-block m-auto sec4-carousel-img"
@@ -778,7 +778,7 @@ export default function HomePage() {
 						</div>
 						<div className="carousel-item border-0 sec4-carousel-item">
 							<div className="row sec4-row">
-								<div className="col-md-4 sec4-left-col">
+								<div className="col-lg-4 col-md-6 sec4-left-col">
 									<div className="sec4-img-wrapper shadow">
 										<img
 											className="d-block m-auto sec4-carousel-img"
@@ -798,7 +798,7 @@ export default function HomePage() {
 										</button>
 									</div>
 								</div>
-								<div className="col-md-4 sec4-mid-col">
+								<div className="col-lg-4 col-md-6 sec4-mid-col">
 									<div className="sec4-img-wrapper shadow">
 										<img
 											className="d-block m-auto sec4-carousel-img"
@@ -818,7 +818,7 @@ export default function HomePage() {
 										</button>
 									</div>
 								</div>
-								<div className="col-md-4 sec4-right-col">
+								<div className="col-lg-4 col-md-6 sec4-right-col">
 									<div className="sec4-img-wrapper shadow">
 										<img
 											className="d-block m-auto sec4-carousel-img"
@@ -886,13 +886,13 @@ export default function HomePage() {
 			<div className="sec-padding sec5 text-center">
 				<h2 className="sec2-heading text-center">Varför oss</h2>
 				<div className="row sec6-row">
-					<div className="col-md-4 sec6-col">
+					<div className="col-lg-4 col-md-6 sec6-col">
 						<div className="sec6-card shadow">
 							<img src={Sec6Vector5} className="sec6-img" />
 						</div>
 						<span className="sec6-text mt-4 mb-5">Original Blomgåva</span>
 					</div>
-					<div className="col-md-4 sec6-col">
+					<div className="col-lg-4 col-md-6 sec6-col">
 						<div className="sec6-card shadow">
 							<img src={Sec6Vector2} className="sec6-img" />
 						</div>
@@ -900,7 +900,7 @@ export default function HomePage() {
 							Beställ innan kl 12:00, leverans imorgon
 						</span>
 					</div>
-					<div className="col-md-4 sec6-col">
+					<div className="col-lg-4 col-md-6 sec6-col">
 						<div className="sec6-card shadow">
 							<img src={Sec6Vector4} className="sec6-img" />
 						</div>
@@ -908,13 +908,13 @@ export default function HomePage() {
 							Köp nu betala senare klarna
 						</span>
 					</div>
-					<div className="col-md-4 sec6-col">
+					<div className="col-lg-4 col-md-6 sec6-col">
 						<div className="sec6-card shadow">
 							<img src={Sec6Vector1} className="sec6-img" />
 						</div>
 						<span className="sec6-text mt-4 mb-5">Snabbt svar kundservice</span>
 					</div>
-					<div className="col-md-4 sec6-col">
+					<div className="col-lg-4 col-md-6 sec6-col">
 						<div className="sec6-card shadow">
 							<img src={Sec6Vector3} className="sec6-img" />
 						</div>
@@ -922,7 +922,7 @@ export default function HomePage() {
 							5 dagars färskhetsgaranti
 						</span>
 					</div>
-					<div className="col-md-4 sec6-col">
+					<div className="col-lg-4 col-md-6 sec6-col">
 						<div className="sec6-card shadow">
 							<img src={Sec6Vector6} className="sec6-img" />
 						</div>

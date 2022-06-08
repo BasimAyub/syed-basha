@@ -11,7 +11,7 @@ export class Owldemo1 extends Component {
 	render() {
 		return (
 			<div>
-				<div class="container-fluid">
+				<div class="">
 					<OwlCarousel
 						items={2.4}
 						loop
@@ -23,6 +23,17 @@ export class Owldemo1 extends Component {
 						center={true}
 						margin={30}
 						dots={true}
+						responsive={{
+							0: {
+								items: 1,
+							},
+							600: {
+								items: 1.5,
+							},
+							768: {
+								items: 2.4,
+							},
+						}}
 					>
 						<div>
 							<div className="owl-card shadow">
@@ -53,7 +64,7 @@ export class Owldemo1 extends Component {
 									sint amet occaecat cupidatat non proident
 								</span>
 								<div className="d-flex">
-									<img className="img" src={Person1} />
+									<img className="img carousel1" src={Person1} />
 									<div className="owl-small-text">
 										<span className="owl-text1">Mike Warren</span>
 										<span className="owl-text2">
@@ -72,7 +83,7 @@ export class Owldemo1 extends Component {
 									sint amet occaecat cupidatat non proident
 								</span>
 								<div className="d-flex">
-									<img className="img" src={Person3} />
+									<img className="img carousel1" src={Person3} />
 									<div className="owl-small-text">
 										<span className="owl-text1">Sophia Moore</span>
 										<span className="owl-text2">CEO at Webflow Agency</span>
@@ -89,7 +100,7 @@ export class Owldemo1 extends Component {
 									sint amet occaecat cupidatat non proident
 								</span>
 								<div className="d-flex">
-									<img className="img" src={Person2} />
+									<img className="img carousel1" src={Person2} />
 									<div className="owl-small-text">
 										<span className="owl-text1">Adam Smith</span>
 										<span className="owl-text2">Webflow Developer</span>
@@ -109,7 +120,7 @@ export class Owldemo1 extends Component {
 									sint amet occaecat cupidatat non proident
 								</span>
 								<div className="d-flex">
-									<img className="img" src={Person1} />
+									<img className="img carousel1" src={Person1} />
 									<div className="owl-small-text">
 										<span className="owl-text1">Mike Warren</span>
 										<span className="owl-text2">
@@ -128,7 +139,7 @@ export class Owldemo1 extends Component {
 									sint amet occaecat cupidatat non proident
 								</span>
 								<div className="d-flex">
-									<img className="img" src={Person3} />
+									<img className="img carousel1" src={Person3} />
 									<div className="owl-small-text">
 										<span className="owl-text1">Sophia Moore</span>
 										<span className="owl-text2">CEO at Webflow Agency</span>

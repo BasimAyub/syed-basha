@@ -309,7 +309,7 @@ export default function Page2() {
 
 				<h5 className="sec4-caption mt-5 mb-4">Populära blommor </h5>
 				<div
-					id="carouselExample2"
+					id="carouselExample3"
 					className="carousel slide text-center"
 					data-ride="carousel"
 				>
@@ -509,14 +509,14 @@ export default function Page2() {
 					</div>
 					<button
 						className="carousel-control-prev sec2-carousel-btn shadow"
-						href="#carouselExample2"
+						href="#carouselExample3"
 						data-slide="prev"
 					>
 						<i className="fa-solid fa-angle-left"></i>
 					</button>
 					<button
 						className="carousel-control-next sec2-carousel-btn shadow"
-						href="#carouselExample2"
+						href="#carouselExample3"
 						data-slide="next"
 					>
 						<i className="fa-solid fa-angle-right"></i>
@@ -525,7 +525,7 @@ export default function Page2() {
 
 				<h5 className="sec4-caption mt-5 mb-4">Alla blommor </h5>
 				<div
-					id="carouselExample2"
+					id="carouselExample4"
 					className="carousel slide text-center"
 					data-ride="carousel"
 				>
@@ -725,14 +725,14 @@ export default function Page2() {
 					</div>
 					<button
 						className="carousel-control-prev sec2-carousel-btn shadow"
-						href="#carouselExample2"
+						href="#carouselExample4"
 						data-slide="prev"
 					>
 						<i className="fa-solid fa-angle-left"></i>
 					</button>
 					<button
 						className="carousel-control-next sec2-carousel-btn shadow"
-						href="#carouselExample2"
+						href="#carouselExample4"
 						data-slide="next"
 					>
 						<i className="fa-solid fa-angle-right"></i>
@@ -842,14 +842,13 @@ export default function Page2() {
 				</div>
 			</div>
 
-			<div className="sec8-padding">
+			<div className="sec8-padding pb-0">
 				<h2 className="sec2-heading text-center mb-0">Rekommenderade Blomgåvor </h2>
 				<OwlCarousel2 />
 			</div>
 
 			<div className="sec8-padding">
 				<h2 className="sec2-heading text-center mb-0">Recensioner</h2>
-
 				<OwlCarousel1 />
 			</div>
 

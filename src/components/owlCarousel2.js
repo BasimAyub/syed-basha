@@ -27,6 +27,20 @@ export class Owldemo2 extends Component {
 						center={true}
 						margin={30}
 						dots={false}
+						responsive={{
+							0: {
+								items: 1,
+							},
+							600: {
+								items: 2.2,
+							},
+							768: {
+								items: 2.5,
+							},
+							950: {
+								items: 3.5,
+							},
+						}}
 					>
 						<div>
 							<div className="sec3-card shadow align-items-center">
@@ -94,7 +108,7 @@ export class Owldemo2 extends Component {
 									typesetting industry.
 								</span>
 								<span className="sec3-price">224.25$</span>
-								<button className="sec2-btn mt-4">Beställ nu</button>
+								<button className="sec2-btn btn-small mt-4">Beställ nu</button>
 							</div>
 						</div>
 						<div>
@@ -163,7 +177,7 @@ export class Owldemo2 extends Component {
 									typesetting industry.
 								</span>
 								<span className="sec3-price">224.25$</span>
-								<button className="sec2-btn mt-4">Beställ nu</button>
+								<button className="sec2-btn btn-small mt-4">Beställ nu</button>
 							</div>
 						</div>
 						<div>
@@ -232,7 +246,7 @@ export class Owldemo2 extends Component {
 									typesetting industry.
 								</span>
 								<span className="sec3-price">224.25$</span>
-								<button className="sec2-btn mt-4">Beställ nu</button>
+								<button className="sec2-btn btn-small mt-4">Beställ nu</button>
 							</div>
 						</div>
 						<div>
@@ -301,7 +315,7 @@ export class Owldemo2 extends Component {
 									typesetting industry.
 								</span>
 								<span className="sec3-price">224.25$</span>
-								<button className="sec2-btn mt-4">Beställ nu</button>
+								<button className="sec2-btn btn-small mt-4">Beställ nu</button>
 							</div>
 						</div>
 						<div>
@@ -370,7 +384,7 @@ export class Owldemo2 extends Component {
 									typesetting industry.
 								</span>
 								<span className="sec3-price">224.25$</span>
-								<button className="sec2-btn mt-4">Beställ nu</button>
+								<button className="sec2-btn btn-small mt-4">Beställ nu</button>
 							</div>
 						</div>
 					</OwlCarousel>
