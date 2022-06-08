@@ -8,7 +8,9 @@ export default function Cart3(props) {
           <img src={greet} alt="card_image" className="col-md-5" />
           <div className="col-md-7" style={{ marginTop: "10px" }}>
             <div className="form-group">
-              <label htmlFor="inputAddress">Greeting card message*</label>
+              <label htmlFor="inputAddress">
+                Greeting card message<span className="requireStart">*</span>
+              </label>
               <textarea
                 className="form-control sec10-input"
                 id="inputAddress"
