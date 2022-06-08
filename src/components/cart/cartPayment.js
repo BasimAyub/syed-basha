@@ -247,7 +247,7 @@ export default function Payment(props) {
                 className="btn greetBack"
                 onClick={(e) => {
                   e.preventDefault();
-                //   props.stepBack();
+                  props.stepBack();
                 }}
               >
                 Föregående
