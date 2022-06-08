@@ -22,7 +22,6 @@ import Sec6Vector3 from "../assets/vector-sec6 (3).png";
 import Sec6Vector4 from "../assets/vector-sec6 (4).png";
 import Sec6Vector5 from "../assets/vector-sec6 (5).png";
 import Sec6Vector6 from "../assets/vector-sec6 (6).png";
-
 import Frame1 from "../assets/frame1.png";
 import Frame2 from "../assets/frame2.png";
 import Sec10Icon1 from "../assets/sec10 icon (1).png";
@@ -30,11 +29,13 @@ import Sec10Icon2 from "../assets/sec10 icon (2).png";
 import Sec10Icon3 from "../assets/sec10 icon (3).png";
 import Sec10Icon4 from "../assets/sec10 icon (4).png";
 import Sec10 from "../assets/sec10.png";
+import { useNavigate } from "react-router-dom";
 
 export default function HomePage() {
 	const [count1, setCount1] = useState(0);
 	const [count2, setCount2] = useState(0);
 	const [count3, setCount3] = useState(0);
+	const navigate = useNavigate();
 
 	const incrementCount1 = () => {
 		setCount1(count1 + 1);
@@ -637,7 +638,15 @@ export default function HomePage() {
 					från hjärtat för någon speciell.
 				</span>
 
-				{/* Progress Bar */}
+				<div className="cartSteps d-flex justify-content-center my-5">
+					<p className="doneStep">1</p>
+					<hr />
+					<p onClick={() => navigate("/cart")}>2</p>
+					<hr />
+					<p>3</p>
+					<hr />
+					<p>4</p>
+				</div>
 
 				<h5 className="sec4-caption mt-5 mb-4">
 					Plocka gärna minst 8 blommor - mest 12 blommor.

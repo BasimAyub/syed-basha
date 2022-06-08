@@ -33,11 +33,13 @@ import Sec10Icon2 from "../assets/sec10 icon (2).png";
 import Sec10Icon3 from "../assets/sec10 icon (3).png";
 import Sec10Icon4 from "../assets/sec10 icon (4).png";
 import Sec10 from "../assets/sec10.png";
+import { useNavigate } from "react-router-dom";
 
 export default function Page2() {
 	const [count1, setCount1] = useState(0);
 	const [count2, setCount2] = useState(0);
 	const [count3, setCount3] = useState(0);
+	const navigate = useNavigate();
 
 	const incrementCount1 = () => {
 		setCount1(count1 + 1);
@@ -87,9 +89,18 @@ export default function Page2() {
 
 			<div className="sec-padding pt-1 text-center">
 				<div className="sec4-dropdown-wrapper"></div>
-				<h2 className="sec2-heading">
+				<h2 className="sec2-heading mb-4">
 					Plocka gärna minst 8 blommor - mest 12 blommor.
 				</h2>
+				<div className="cartSteps d-flex justify-content-center my-1">
+					<p className="doneStep">1</p>
+					<hr />
+					<p onClick={() => navigate("/cart")}>2</p>
+					<hr />
+					<p>3</p>
+					<hr />
+					<p>4</p>
+				</div>
 
 				<h5 className="sec4-caption mt-5 mb-4">Säsongens blommor</h5>
 				<div
@@ -843,7 +854,9 @@ export default function Page2() {
 			</div>
 
 			<div className="sec8-padding pb-0">
-				<h2 className="sec2-heading text-center mb-0">Rekommenderade Blomgåvor </h2>
+				<h2 className="sec2-heading text-center mb-0">
+					Rekommenderade Blomgåvor{" "}
+				</h2>
 				<OwlCarousel2 />
 			</div>
 

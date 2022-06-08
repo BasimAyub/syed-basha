@@ -1,0 +1,209 @@
+.cartTable .css-11xur9t-MuiPaper-root-MuiTableContainer-root {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.cartTable {
+  margin-bottom: 60px;
+}
+
+.tableProduct img {
+  max-width: 100px;
+}
+
+.tableProduct p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cartIncrementer button {
+  background-color: white !important;
+  background-image: none;
+  padding: 15px 16px;
+  box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.2);
+  margin: auto 8px;
+}
+
+.cartTableBottom {
+  margin-bottom: 90px;
+}
+
+.cartTableBottom p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cartButtonActive {
+  text-align: center;
+  border: none;
+  border-radius: 30px;
+  background-color: #bcc7e7;
+  color: black;
+  padding: 20px;
+}
+
+@media (max-width: 595px) {
+  .cartTableBottom {
+    justify-content: center !important;
+  }
+}
+
+.greetingCardsMain {
+  text-align: center;
+}
+
+.greetingCardsMain h4 {
+  margin-bottom: 40px;
+}
+
+.greetingCards {
+  justify-content: center;
+}
+
+.greetindCard {
+  display: flex;
+  justify-content: center;
+  margin: 0px auto 40px;
+}
+
+.greetindCard div {
+  cursor: pointer;
+}
+
+.greetindCard p {
+  margin-top: 22px;
+}
+
+.greetMessageMain {
+  padding: 40px 39px;
+  border-radius: 28px;
+  margin: 0 auto 100px;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.greetMessageMain img {
+  max-width: 327px;
+  max-height: 337px;
+  width: 100%;
+  margin: auto;
+}
+
+.greetMessageMain textarea {
+  resize: none;
+}
+
+.fontOptionsCart {
+  margin-top: 20px;
+}
+
+.fontOptionsCart p {
+  border: 1px solid black;
+  padding: 3% 6%;
+  font-size: 24px;
+  margin: auto 4px;
+  cursor: pointer;
+}
+
+.fontOptionsCart select {
+  height: 55px;
+  margin: auto 4px;
+}
+
+.greetFormBtn {
+  margin: 45px auto;
+}
+
+.greetBack {
+  color: #838d8f;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.greetAhead {
+  padding: 14px 80px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.greetMessageMain .form-row {
+  margin-top: 30px;
+}
+
+.greetMessageMain label {
+  margin-top: 24px;
+}
+
+.greetMessageMain h4 {
+  margin-top: 24px;
+  margin-bottom: 0px;
+}
+
+.cartTable img {
+  max-width: 100px;
+}
+
+.paymentSub {
+  width: 77%;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.paymentShip {
+  width: 90%;
+  margin-left: 40px;
+}
+
+@media (max-width: 700px) {
+  .paymentSub {
+    margin-left: 10px;
+  }
+
+  .paymentShip {
+    margin-left: 10px;
+  }
+  .paymentShip h6 {
+    margin-bottom: 30px;
+  }
+}
+
+.paymentMessage {
+  background-color: white;
+  border-radius: 20px;
+  padding: 5% 10%;
+  border: 1px solid #00000026;
+}
+.paymentMessage img {
+  max-width: 184px;
+}
+
+.paymentMessage h2 {
+  font-size: 22px;
+}
+
+.paymentMessage span {
+  max-width: 673px;
+  font-size: 14px;
+}
+
+.paymentForm {
+  background-color: #ededed;
+  border-radius: 10px;
+  padding: 36px 39px;
+  margin-top: 20px;
+}
+
+.paymentForm2 {
+  padding: 10px !important;
+}
+
+.paymentForm2 label {
+  margin-top: 7px;
+}
+
+.paymentForm .sec10-input {
+  height: 50px;
+  box-shadow: inset 0.5em 0.5rem 0.3rem rgba(0, 0, 0, 0.05);
+}
