@@ -5,76 +5,76 @@ export default function Cart4(props) {
         <h4>Shipping Detail</h4>
         <div className="form-row">
           <div className="form-group col-md-6">
-            <label for="inputAddress2">Your signature</label>
+            <label htmlFor="inputAddress2">Your signature</label>
             <input
               type="text"
               className="form-control sec10-input"
               id="inputAddress2"
-              placeholder="Enter your name for the recipient if you want"
+              placeholder="Enter your name htmlFor the recipient if you want"
             />
           </div>
           <div className="form-group col-md-6">
-            <label for="inputAddress2">Your signature</label>
+            <label htmlFor="inputAddress2">Your signature</label>
             <input
               type="text"
               className="form-control sec10-input"
               id="inputAddress2"
-              placeholder="Enter your name for the recipient if you want"
+              placeholder="Enter your name htmlFor the recipient if you want"
             />
           </div>
         </div>
         <div className="form-group">
-          <label for="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">Your signature</label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name for the recipient if you want"
+            placeholder="Enter your name htmlFor the recipient if you want"
           />
         </div>
         <div className="form-group">
-          <label for="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">Your signature</label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name for the recipient if you want"
+            placeholder="Enter your name htmlFor the recipient if you want"
           />
         </div>
         <div className="form-group">
-          <label for="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">Your signature</label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name for the recipient if you want"
+            placeholder="Enter your name htmlFor the recipient if you want"
           />
         </div>
         <div className="form-group">
-          <label for="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">Your signature</label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name for the recipient if you want"
+            placeholder="Enter your name htmlFor the recipient if you want"
           />
         </div>
         <div className="form-group">
-          <label for="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">Your signature</label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name for the recipient if you want"
+            placeholder="Enter your name htmlFor the recipient if you want"
           />
         </div>
         <div className="form-group">
-          <label for="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">Your signature</label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name for the recipient if you want"
+            placeholder="Enter your name htmlFor the recipient if you want"
           />
         </div>
         <div className="form-group">
@@ -84,7 +84,7 @@ export default function Cart4(props) {
             except weekends and holidays. Your flowers are always sent via
             PostNord before the desired delivery date. We make sure that the
             flowers arrive in your mailbox at the time you have specified, but
-            the exact delivery depends on PostNord For any questions about
+            the exact delivery depends on PostNord htmlFor any questions about
             shipping or about your order, please contact us:
             kundservice@postablomster.se Thanks
           </p>
@@ -92,40 +92,40 @@ export default function Cart4(props) {
         <h4>Billing Detail</h4>
         <div className="form-row">
           <div className="form-group col-md-6">
-            <label for="inputAddress2">Your signature</label>
+            <label htmlFor="inputAddress2">Your signature</label>
             <input
               type="text"
               className="form-control sec10-input"
               id="inputAddress2"
-              placeholder="Enter your name for the recipient if you want"
+              placeholder="Enter your name htmlFor the recipient if you want"
             />
           </div>
           <div className="form-group col-md-6">
-            <label for="inputAddress2">Your signature</label>
+            <label htmlFor="inputAddress2">Your signature</label>
             <input
               type="text"
               className="form-control sec10-input"
               id="inputAddress2"
-              placeholder="Enter your name for the recipient if you want"
+              placeholder="Enter your name htmlFor the recipient if you want"
             />
           </div>
         </div>
         <div className="form-group">
-          <label for="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">Your signature</label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name for the recipient if you want"
+            placeholder="Enter your name htmlFor the recipient if you want"
           />
         </div>
         <div className="form-group">
-          <label for="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">Your signature</label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name for the recipient if you want"
+            placeholder="Enter your name htmlFor the recipient if you want"
           />
         </div>
 
@@ -141,10 +141,10 @@ export default function Cart4(props) {
           </button>
           <button
             type="submit"
-            class="btn greetAhead cartButtonActive"
+            className="btn greetAhead cartButtonActive"
             onClick={(e) => {
               e.preventDefault();
-              // props.stepNext();
+              props.stepFinal();
             }}
           >
             Nästa
