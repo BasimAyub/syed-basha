@@ -1,0 +1,91 @@
+.cartTopNav {
+  background-color: #f1f2f4;
+  padding: 0px 20px;
+}
+
+.cartTopNav a {
+  padding: 30px 0;
+  margin: 0px 30px;
+  text-decoration: none;
+  color: #7b808b;
+  text-align: center;
+}
+
+.cartTopNav a:hover {
+  border-bottom: 3px solid #7b808b;
+}
+
+.cartTopNav .active {
+  border-bottom: 3px solid black;
+  color: black;
+}
+
+.cartTopNav span {
+  background-color: #7b808b;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 8px;
+  margin-left: 14px;
+}
+
+@media (max-width: 400px) {
+  .cartTopNav span {
+    margin-left: 0;
+  }
+}
+
+.cartTopNav .activeSpan {
+  background-color: black;
+}
+
+.cartSteps {
+  width: 40%;
+  min-width: 300px;
+  margin: 80px auto;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.cartSteps p {
+  /* width: 60px; */
+  color: black;
+  background-color: white;
+  text-align: center;
+  padding: 12px 24px;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 50%;
+  box-shadow: 5px 6px 9px 0px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 5px 6px 9px 0px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 5px 6px 9px 0px rgba(0, 0, 0, 0.23);
+}
+
+.cartSteps .doneStep {
+  background-color: #bcc7e7;
+  color: #545f77;
+}
+
+.cartSteps hr {
+  background: rgb(188, 199, 231);
+  background: linear-gradient(
+    75deg,
+    rgba(188, 199, 231, 1) 0%,
+    rgba(239, 240, 245, 1) 100%
+  );
+  height: 3px;
+  width: 30%;
+  min-width: 10px;
+  margin-top: 30px;
+}
+
+.cartContent {
+  width: 80%;
+  margin: auto;
+}
+
+.finalStep {
+  padding: 12px 20px !important;
+  background-color: #00be57 !important;
+  color: white !important;
+  margin-left: 10%;
+}

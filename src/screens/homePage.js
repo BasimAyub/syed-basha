@@ -22,7 +22,6 @@ import Sec6Vector3 from "../assets/vector-sec6 (3).png";
 import Sec6Vector4 from "../assets/vector-sec6 (4).png";
 import Sec6Vector5 from "../assets/vector-sec6 (5).png";
 import Sec6Vector6 from "../assets/vector-sec6 (6).png";
-
 import Frame1 from "../assets/frame1.png";
 import Frame2 from "../assets/frame2.png";
 import Sec10Icon1 from "../assets/sec10 icon (1).png";
