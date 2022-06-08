@@ -5,76 +5,90 @@ export default function Cart4(props) {
         <h4>Shipping Detail</h4>
         <div className="form-row">
           <div className="form-group col-md-6">
-            <label htmlFor="inputAddress2">Your signature</label>
+            <label htmlFor="inputAddress2">
+              First Name<span className="requireStart">*</span>
+            </label>
             <input
               type="text"
               className="form-control sec10-input"
               id="inputAddress2"
-              placeholder="Enter your name htmlFor the recipient if you want"
+              placeholder=""
             />
           </div>
           <div className="form-group col-md-6">
-            <label htmlFor="inputAddress2">Your signature</label>
+            <label htmlFor="inputAddress2">
+              Last Name<span className="requireStart">*</span>
+            </label>
             <input
               type="text"
               className="form-control sec10-input"
               id="inputAddress2"
-              placeholder="Enter your name htmlFor the recipient if you want"
+              placeholder=""
             />
           </div>
         </div>
         <div className="form-group">
-          <label htmlFor="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">
+            Street address<span className="requireStart">*</span>
+          </label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name htmlFor the recipient if you want"
+            placeholder=""
           />
         </div>
         <div className="form-group">
-          <label htmlFor="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">
+            House number <span className="requireStart">*</span>
+          </label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name htmlFor the recipient if you want"
+            placeholder=""
           />
         </div>
         <div className="form-group">
-          <label htmlFor="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">
+            Postcode / ZIP <span className="requireStart">*</span>
+          </label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name htmlFor the recipient if you want"
+            placeholder=""
           />
         </div>
         <div className="form-group">
-          <label htmlFor="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">
+            Town / City <span className="requireStart">*</span>
+          </label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name htmlFor the recipient if you want"
+            placeholder=""
           />
         </div>
         <div className="form-group">
-          <label htmlFor="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">Order notes (optional)</label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name htmlFor the recipient if you want"
+            placeholder=""
           />
         </div>
         <div className="form-group">
-          <label htmlFor="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">
+            Delivery date <span className="requireStart">*</span>
+          </label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name htmlFor the recipient if you want"
+            placeholder=""
           />
         </div>
         <div className="form-group">
@@ -92,40 +106,48 @@ export default function Cart4(props) {
         <h4>Billing Detail</h4>
         <div className="form-row">
           <div className="form-group col-md-6">
-            <label htmlFor="inputAddress2">Your signature</label>
+            <label htmlFor="inputAddress2">
+              First Name<span className="requireStart">*</span>
+            </label>
             <input
               type="text"
               className="form-control sec10-input"
               id="inputAddress2"
-              placeholder="Enter your name htmlFor the recipient if you want"
+              placeholder=""
             />
           </div>
           <div className="form-group col-md-6">
-            <label htmlFor="inputAddress2">Your signature</label>
+            <label htmlFor="inputAddress2">
+              Last Name<span className="requireStart">*</span>
+            </label>
             <input
               type="text"
               className="form-control sec10-input"
               id="inputAddress2"
-              placeholder="Enter your name htmlFor the recipient if you want"
+              placeholder=""
             />
           </div>
         </div>
         <div className="form-group">
-          <label htmlFor="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">
+            Mobile number <span className="requireStart">*</span>
+          </label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name htmlFor the recipient if you want"
+            placeholder=""
           />
         </div>
         <div className="form-group">
-          <label htmlFor="inputAddress2">Your signature</label>
+          <label htmlFor="inputAddress2">
+            E-mail<span className="requireStart">*</span>
+          </label>
           <input
             type="text"
             className="form-control sec10-input"
             id="inputAddress2"
-            placeholder="Enter your name htmlFor the recipient if you want"
+            placeholder=""
           />
         </div>
 
