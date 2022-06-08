@@ -21,8 +21,16 @@ export default function Cart() {
       setFlag(false);
     }
   });
+  function change2() {
+    setStep(2);
+    setFlag(true);
+  }
   function change3() {
     setStep(3);
+    setFlag(true);
+  }
+  function change4() {
+    setStep(4);
     setFlag(true);
   }
   return (
@@ -76,8 +84,8 @@ export default function Cart() {
         </div>
         <div className="cartContent">
           {step === 2 ? <Cart2 step={change3} /> : ""}
-          {step === 3 ? <Cart3 /> : ""}
-          {step === 4 ? <Cart4 /> : ""}
+          {step === 3 ? <Cart3 stepBack={change2} stepNext={change4} /> : ""}
+          {step === 4 ? <Cart4 stepBack={change3} /> : ""}
         </div>
       </div>
       <Footer />

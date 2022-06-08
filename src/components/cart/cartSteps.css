@@ -35,7 +35,7 @@
   justify-content: center;
 }
 
-.cartTableBottom button {
+.cartButtonActive {
   text-align: center;
   border: none;
   border-radius: 30px;
@@ -88,4 +88,55 @@
   max-width: 327px;
   max-height: 337px;
   width: 100%;
+  margin: auto;
+}
+
+.greetMessageMain textarea {
+  resize: none;
+}
+
+.fontOptionsCart {
+  margin-top: 20px;
+}
+
+.fontOptionsCart p {
+  border: 1px solid black;
+  padding: 3% 6%;
+  font-size: 24px;
+  margin: auto 4px;
+  cursor: pointer;
+}
+
+.fontOptionsCart select {
+  height: 55px;
+  margin: auto 4px;
+}
+
+.greetFormBtn {
+  margin: 45px auto;
+}
+
+.greetBack {
+  color: #838d8f;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.greetAhead {
+  padding: 14px 80px;
+  font-weight: 600;
+  margin: 10px;
+}
+
+.greetMessageMain .form-row {
+  margin-top: 30px;
+}
+
+.greetMessageMain label {
+  margin-top: 24px;
+}
+
+.greetMessageMain h4 {
+  margin-top: 24px;
+  margin-bottom: 0px;
 }

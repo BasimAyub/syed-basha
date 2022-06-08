@@ -121,7 +121,7 @@ export default function Cart2(props) {
       </div>
       <div className="cartTableBottom row justify-content-between align-center">
         <p>Do you want to send without a card?</p>
-        <button onClick={props.step}>
+        <button className="cartButtonActive"  onClick={props.step}>
           Without Greeting Cards{" "}
           <ArrowForwardIosIcon
             style={{ fontSize: "15px", marginLeft: "10px" }}
